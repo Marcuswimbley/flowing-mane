@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Hairstylist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quality hairstyles right at your door</h1>
+        <p>Professional mobile hairstyling services available at your convenience.</p>
+        <a href="#booking" class="cta-button">Book Your Appointment Now</a>
+    </header>
+
+<!-- Services -->   
+
+<section id="services">
+    <h2>My Services</h2>
+    <ul>
+        <li><strong>Haircuts:</strong> Precision cuts for men, women, and children.</li>
+        <li><strong>Coloring:</strong> Customized coloring services to match your style.</li>
+        <li><strong>Styling:</strong> Event-ready styles for weddings, proms, and more.</li>
+    </ul>
+</section>
+
+<!-- Prices --> 
+
+<section id="pricing">
+    <h2>Prices</h2>
+    <div class="price-boxes">
+        <div class="price-box">
+            <h3>Women</h3>
+            <ul>
+                <li>Full Highlights: $140</li>
+                <li>Partial Highlights: $120</li>
+                <li>All Over Color: $75</li>
+                <li>Regrowth Color: $55</li>
+                <li>Haircut: $60</li>
+                <li>Up/Down Dos: $65</li>  
+            </ul>
+            <a href="#booking" class="cta-button">Appointment</a>
+        </div>
+        <div class="price-box">
+            <h3>Men</h3>
+            <ul>
+                <li>Haircut: $30</li>
+            </ul>
+            <a href="#booking" class="cta-button">Appointment</a> 
+        </div>
+        <div class="price-box">
+            <h3>Kids</h3>
+            <ul>
+                <li>Haircut: $30</li>
+            </ul>
+            <a href="#booking" class="cta-button">Appointment</a> 
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hi all! I have been a hairstylist since 2008. I have worked at Life Spa for 8 of those years in Austin, 2 years booth renting in Bastrop, and the rest independently as a mobile hairstylist which included weddings. I have done it all, and now I am bringing it to your house. Stay in the convenience of your own home while I do you and your family's hair. I have flexible hours and will work around your schedule. ALl first-time clients receive 10% off their first service. Texting is the best way to reach me, however you can also call or email to set an appointment.</p>
+</section>
+
+<!-- Testimonials -->
+
+<section id="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>Jane D. says: "Amazing service! I love how my hair turned out, and it was so convenient!"</blockquote>
+    <blockquote>Mark S. says: "Highly professional and skilled. Will definitely book again!"</blockquote>
+</section>   
+
+<!-- Gallery --> <!-- Add pictures and change src and alt -->
+<section id="gallery">
+
+    <h2>Gallery</h2>
+    <div class="gallery-container">
+        <img src="before_after1.jpg" alt="Before and After">
+        <img src="before_after2.jpg" alt="Before and After">
+        <img src="before_after3.jpg" alt="Before and After">
+    </div>
+</section>
+
+<!-- Contact page-->
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Phone: (512) 924-1049</p>
+    <p>Email: Hisenduringmercy@gmail.com</p>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send</button>
+    </form>
+</section>
+</body>
+</html>
